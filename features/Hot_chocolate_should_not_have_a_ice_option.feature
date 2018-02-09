@@ -5,7 +5,7 @@ Feature: Hot chocolate should not have a ice option
   So that I don't have to disappoint customers
   
   
-  Scenario: Attempt to order iced hot chocolate
+  Scenario: Attempt to order iced hot chocolate Update
     Given a digital menu order
     When I purchase a hot chocolate
     Then the "iced" option should be disabled for hot chocolate
